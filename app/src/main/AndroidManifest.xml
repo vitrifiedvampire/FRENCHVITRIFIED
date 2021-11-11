@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.miwok" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vit"
+        android:label="French Vitrified"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ColorsActivity"
+            android:exported="true"
+            android:label="COLOUR" />
+        <activity
+            android:name=".PhraseActivity"
+            android:exported="true"
+            android:label="PHRASE" />
+        <activity
+            android:name=".FamilyActivity"
+            android:exported="true"
+            android:label="FAMILY" />
+        <activity
+            android:name=".NumbersActivity"
+            android:exported="true"
+            android:label="NUMBER" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
